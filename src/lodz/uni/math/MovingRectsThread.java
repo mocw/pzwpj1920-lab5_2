@@ -34,7 +34,7 @@ public class MovingRectsThread extends Thread {
 
                         Utilities.setFill(Color.BLACK, graphicsContext);
                         Utilities.fillRect((j+40) < screenCanv.getHeight() ? j+40 : j,i, Utilities.RECT_WIDTH,Utilities.RECT_HEIGHT, graphicsContext);
-                        Utilities.setFill(Color.RED, graphicsContext);
+                        Utilities.setFill(Color.BLUE, graphicsContext);
                         Utilities.fillRect((j+40) < screenCanv.getHeight() ? j+40 : j,i, Utilities.RECT_WIDTH-1,Utilities.RECT_HEIGHT-1, graphicsContext);
                             try {
                                 Thread.sleep((long) time);
